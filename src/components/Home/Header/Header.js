@@ -1,5 +1,5 @@
 
-import Navbar from '../Navbar/Navbar';
+
 import table from '../../../images/table.png';
 import './Header.css';
 import ReadMore from '../ReadMore/ReadMore';
@@ -8,7 +8,6 @@ const Header = () => {
    
     return (
 <div className="bg">
-            <Navbar></Navbar>
             <div className="row d-flex align-items-center">
                 <div className="col-md-5 offset-md-1">
                      <h1>We Build Brands That Lead &</h1>

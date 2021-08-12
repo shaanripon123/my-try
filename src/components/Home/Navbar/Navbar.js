@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../../../images/logo/Logo@1X.png'
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light shaan">
         <div class="container-fluid">
           <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
             <ul class="navbar-nav ">
@@ -14,10 +14,10 @@ const Navbar = () => {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active text-white mx-3" aria-current="page" href="home">Home</a>
+                <a class="nav-link active text-white mx-3" aria-current="page" href="/home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mx-3" href="/work">Our Work</a>
+                <a class="nav-link text-white mx-3" href="/wk">Our Work</a>
               </li>
                 <li class="nav-item">
                 <a class="nav-link text-white mx-3" href="/review">Review</a>
