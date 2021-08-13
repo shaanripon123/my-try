@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../../../images/logo/Logo@1X.png'
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light shaan">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light shaan">
         <div class="container-fluid">
           <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
             <ul class="navbar-nav ">
